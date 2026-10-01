@@ -187,26 +187,27 @@ int main() {
     Node *dau = NULL;
     Node *cuoi = NULL;
 
-    chenCuoi(dau, cuoi, 10);
-    chenCuoi(dau, cuoi, 20);
-    chenCuoi(dau, cuoi, 30);
+    chenCuoi(dau, cuoi, 100);
+    chenCuoi(dau, cuoi, 200);
+    chenCuoi(dau, cuoi, 300);
+    chenCuoi(dau, cuoi, 400);
 
     cout << "Danh sach ban dau: ";
     duyetXuoi(dau);
 
-    cout << "Truy cap vi tri 1: ";
-    truyCap(dau, 1);
+    cout << "Truy cap vi tri 2: ";
+    truyCap(dau, 2);
 
-    chenDau(dau, cuoi, 5);
+    chenDau(dau, cuoi, 50);
     cout << "Chen dau: ";
     duyetXuoi(dau);
 
-    chenCuoi(dau, cuoi, 40);
+    chenCuoi(dau, cuoi, 500);
     cout << "Chen cuoi: ";
     duyetXuoi(dau);
 
-    chenViTri(dau, cuoi, 2, 15);
-    cout << "Chen vi tri 2: ";
+    chenViTri(dau, cuoi, 3, 250);
+    cout << "Chen vi tri 3: ";
     duyetXuoi(dau);
 
     xoaDau(dau, cuoi);
@@ -217,8 +218,8 @@ int main() {
     cout << "Xoa cuoi: ";
     duyetXuoi(dau);
 
-    xoaViTri(dau, cuoi, 1);
-    cout << "Xoa vi tri 1: ";
+    xoaViTri(dau, cuoi, 2);
+    cout << "Xoa vi tri 2: ";
     duyetXuoi(dau);
 
     cout << "Duyet xuoi: ";
